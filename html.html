@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Temporizadores</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="titulo">Temporizadores</h2>
+    <div class="botoes-container">
+      <input type="datetime-local" id="hora-termino">
+      <button class="botao" id="iniciar-temporizador-alura">Alura</button>
+      <button class="botao" id="iniciar-temporizador-javascript">JavaScript</button>
+      <button class="botao" id="iniciar-temporizador-portfolio">Portfólio</button>
+      <button class="botao" id="iniciar-temporizador-curriculo">Currículo</button>
+      <button class="botao parar" id="parar-temporizador">Parar Temporizador</button>
+    </div>
+    <div class="temporizador-container">
+      <p id="contador" class="temporizador"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

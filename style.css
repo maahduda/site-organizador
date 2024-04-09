@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #da93a6; /* Fundo mais escuro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #b67185;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+    color: #6c2e42; /* Rosa escuro */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.botoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.botao {
+    margin: 5px;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6c2e42; /* Rosa */
+    color: #ffb4c8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #c2185b; /* Rosa mais escuro */
+}
+
+.parar {
+    background-color: #915063; /* Vermelho */
+}
+
+.parar:hover {
+    background-color: #ff1744; /* Vermelho mais escuro */
+}
+
+#hora-termino {
+    padding: 8px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.temporizador-container {
+    text-align: center;
+}
+
+.temporizador {
+    font-size: 48px;
+    color: #d81b60; /* Rosa escuro */
+    font-weight: bold;
+    margin-top: 20px;
+}
+ 
